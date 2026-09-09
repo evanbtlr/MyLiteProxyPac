@@ -4,9 +4,9 @@ function FindProxyForURL(url, host) {
     var proxyServer = "PROXY 127.0.0.1:1080; DIRECT";
 
 /**
- * This is an example of a domain list from ru-blocked.list
- * The purpose of this file is to store domains that are blocked or restricted
- * This type of list is commonly used in network filtering systems
+ * Domain list for proxy routing.
+ * Typically used to bypass regional restrictions or to route
+ * specific services through a local proxy.
  */
     var proxy_hosts = [
         // --- Social Media & Messaging ---
