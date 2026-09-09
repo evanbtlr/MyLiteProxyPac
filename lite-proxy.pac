@@ -37,6 +37,11 @@ function FindProxyForURL(url, host) {
         "youtu.be",
         "youtube.com",
         "ytimg.com",
+        "youtube.ru",
+
+        // --- YouTube & Google APIs (additional) ---
+        "googleapis.com",            // covers youtube.googleapis.com, youtubei.googleapis.com, etc.
+        "youtube-nocookie.com",      // separate domain for cookie-less version
 
         // --- AI & Chat Services ---
         "beatoven.ai",
@@ -63,7 +68,6 @@ function FindProxyForURL(url, host) {
 
         // --- News & Independent Media ---
         "bbc.com",
-        "bbc.co.uk",
         "currenttime.tv",
         "dw.com",
         "moscowtimes.ru",
@@ -135,12 +139,10 @@ function FindProxyForURL(url, host) {
         "telegram.de",
         "telegram.dev",
         "telegram.eu",
-        "telegram.fr",
         "telegram.host",
         "telegram.in",
         "telegram.info",
         "telegram.io",
-        "telegram.jp",
         "telegram.net",
         "telegram.qa",
         "telegram.ru",
@@ -149,7 +151,6 @@ function FindProxyForURL(url, host) {
         "telegram.space",
         "telegram.team",
         "telegram.tech",
-        "telegram.uk",
         "telegram.us",
         "telegram.website",
         "telegram.xyz",
@@ -163,6 +164,10 @@ function FindProxyForURL(url, host) {
         "torg.org",
         "tx.me",
         "usercontent.dev",
+
+        // --- Additional API endpoints (third‑party subdomains kept because parent domains are missing) ---
+        "api.imem.app",
+        "api.swiftgram.app",
 
         // --- Other blocked / commonly used services ---
         "aiquickdraw.com",
@@ -196,11 +201,7 @@ function FindProxyForURL(url, host) {
         "wabbajack.org",
         "war.gov",
         "whale.biz",
-        "wix.com",
-
-        // --- Additional API endpoints (third‑party subdomains kept because parent domains are missing) ---
-        "api.imem.app",
-        "api.swiftgram.app"
+        "wix.com"
     ];
 
     if (isPlainHostName(host)) {
