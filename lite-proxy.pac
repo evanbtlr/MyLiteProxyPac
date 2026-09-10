@@ -201,7 +201,8 @@ function FindProxyForURL(url, host) {
         "wabbajack.org",
         "war.gov",
         "whale.biz",
-        "wix.com"
+        "wix.com",
+        "reve.com"
     ];
 
     if (isPlainHostName(host)) {
