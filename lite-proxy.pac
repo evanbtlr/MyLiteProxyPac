@@ -3,12 +3,13 @@ function FindProxyForURL(url, host) {
 
     var proxyServer = "PROXY 127.0.0.1:1080; DIRECT";
 
-/**
- * Domain list for proxy routing.
- * Typically used to bypass regional restrictions or to route
- * specific services through a local proxy.
- */
+    /**
+     * Domain list for proxy routing.
+     * Typically used to bypass regional restrictions or to route
+     * specific services through a local proxy.
+     */
     var proxy_hosts = [
+        
         // --- Social Media & Messaging ---
         "discord.com",
         "discord.gg",
@@ -168,6 +169,11 @@ function FindProxyForURL(url, host) {
         // --- Additional API endpoints (third‑party subdomains kept because parent domains are missing) ---
         "api.imem.app",
         "api.swiftgram.app",
+
+        // --- Paradox Interactive (launcher & services) ---
+        "paradoxplaza.com",
+        "paradoxinteractive.com",
+        "paradox-interactive.com",
 
         // --- Other blocked / commonly used services ---
         "aiquickdraw.com",
