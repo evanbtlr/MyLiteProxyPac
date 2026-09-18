@@ -9,7 +9,7 @@ function FindProxyForURL(url, host) {
      * specific services through a local proxy.
      */
     var proxy_hosts = [
-        
+
         // --- Social Media & Messaging ---
         "discord.com",
         "discord.gg",
@@ -171,9 +171,9 @@ function FindProxyForURL(url, host) {
         "api.swiftgram.app",
 
         // --- Paradox Interactive (launcher & services) ---
-        "paradoxplaza.com",
-        "paradoxinteractive.com",
-        "paradox-interactive.com",
+        // "paradoxplaza.com",
+        // "paradoxinteractive.com",
+        // "paradox-interactive.com",
 
         // --- Other blocked / commonly used services ---
         "aiquickdraw.com",
