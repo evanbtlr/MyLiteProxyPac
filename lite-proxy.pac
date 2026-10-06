@@ -48,6 +48,7 @@ function FindProxyForURL(url, host) {
         "beatoven.ai",
         "chatgpt.com",
         "claude.com",
+        "claude.ai",
         "clippie.ai",
         "erweima.ai",
         "gptunnel.ru",
