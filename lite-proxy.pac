@@ -33,6 +33,7 @@ function FindProxyForURL(url, host) {
         // --- Video, Music & Streaming ---
         "ggpht.com",
         "googlevideo.com",
+        "googlesource.com",
         "soundcloud.com",
         "spotify.com",
         "youtu.be",
@@ -47,9 +48,6 @@ function FindProxyForURL(url, host) {
         // --- AI & Chat Services ---
         "beatoven.ai",
         "chatgpt.com",
-        "anthropic.com",
-        "claude.com",
-        "claude.ai",
         "clippie.ai",
         "erweima.ai",
         "gptunnel.ru",
@@ -61,6 +59,15 @@ function FindProxyForURL(url, host) {
         "songgenerator.io",
         "toolful.ai",
         "x.ai",
+
+        // --- Claude Code (Anthropic) ---
+        "anthropic.com",             
+        "claude.ai",
+        "claude.com",
+        "claudeusercontent.com",
+        "clau.de",
+        "claudemcpclient.com",
+        "claudemcpcontent.com",
 
         // --- Development & Hosting ---
         "github.com",
