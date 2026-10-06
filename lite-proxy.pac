@@ -47,6 +47,7 @@ function FindProxyForURL(url, host) {
         // --- AI & Chat Services ---
         "beatoven.ai",
         "chatgpt.com",
+        "anthropic.com",
         "claude.com",
         "claude.ai",
         "clippie.ai",
