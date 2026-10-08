@@ -186,6 +186,7 @@ function FindProxyForURL(url, host) {
         // "paradox-interactive.com",
 
         // --- Other blocked / commonly used services ---
+        "alpari.com",
         "aiquickdraw.com",
         "channel.io",
         "cloudflare.com",
